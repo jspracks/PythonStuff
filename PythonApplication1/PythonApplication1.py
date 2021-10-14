@@ -16,7 +16,7 @@ total = (savings * USEXCHANGE)
 totalII = math.fabs (savings)
 totalII= (savings * USEXCHANGEII)
 
-difference= math.fabs (total + totalII)
+difference= math.fabs (total - totalII)
 
 #Output to disk file
 report=open('c:\\class\\jsprackman-ke.txt','w')
